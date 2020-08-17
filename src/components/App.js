@@ -27,7 +27,8 @@ function App() {
       <CreateArea 
         addItem = {addNote}
       />
-      
+         
+         
         {items.map((item, index) => {
           return (
             <Note 
